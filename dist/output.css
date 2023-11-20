@@ -534,6 +534,18 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
@@ -604,6 +616,10 @@ video {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .bg-amber-950 {

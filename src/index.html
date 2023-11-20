@@ -4,10 +4,41 @@
     <link rel="stylesheet" href="../dist/output.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TW</title>
+    <title>KINGS BACKERY</title>
 </head>
 <style>
- 
+    @media only screen and (max-width: 375px) {
+      nav,  .bakery-tittle{
+          text-align: center;
+        
+      }
+      nav h1{
+        border-bottom: 3px solid black;
+        padding-bottom: 10px;
+      }
+      nav .text-white{
+        display: block;
+        padding-top: 10px ;
+      }
+      nav li{
+        padding-top: 7px;
+      }
+      .grid{
+        display: block;
+        border-bottom: 2px solid black;
+      }
+
+    }
+    .border{
+        border-bottom: 2px solid black;
+        padding-top: 30px;
+    }
+    .p-60{
+       padding: 180px;
+    }
+    footer{
+        padding-right: 70px;
+    }
 
 </style>
 <body class="bg-orange-900">
@@ -17,18 +48,18 @@
             <h1 class="text-white text-3xl ">KingsBackery</h1>
         </div>
         <div class="text-white flex justify-center list-none">
-            <li>ABOUT US</li>
-            <li class="pl-8">SERVIVES</li>
-            <li class="pl-8">PRODUCTS</li>
-            <li class="pl-8">BLOG</li>
-            <li class="pl-8">CONTACTS</li>
+            <li class="pl-8"><a href="#">ABOUT US </a></li>
+            <li class="pl-8"><a href="#">SERVICES </a></li>
+            <li class="pl-8"><a href="#">PRODUCTS </a></li>
+            <li class="pl-8"><a href="#">BLOGS </a></li>
+            <li class="pl-8"><a href="#">CONTACTS </a></li>
         </div>
     </nav>
 
 
 
       <section style="background-image: url(bakery.jpg);"
-            class=" p-60 blur-sm  bg-no-repeat bg-cover 		">
+            class=" p-60 blur-sm  bg-no-repeat bg-cover">
         </section>
 
 
@@ -43,6 +74,7 @@
                         <div class="text">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Quos magni, sequi ab eum itaque illo exercitationem deserunt.<br> Ipsam, quos blanditiis debitis
                             <br><br> <button class="bg-amber-950 text-white p-2">READ MORE</button>
+                            <div class="border"></div>
                         </div>
                 </div>
                 <div class="bg-gray-200 p-4">
@@ -53,6 +85,7 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Quos magni, sequi ab eum itaque illo exercitationem deserunt.<br> Ipsam, quos blanditiis debitis
                         
                             <br><br> <button class="bg-amber-950 text-white p-2">READ MORE</button>
+                            <div class="border"> </div>
                         </div>
             
             </div>
